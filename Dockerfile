@@ -12,6 +12,6 @@ FROM ubuntu
 MAINTAINER jadestone 1052879380@qq.com
  
 # 3、镜像操作指令
-RUN copy print-date.sh /etc/
+COPY print-date.sh /etc/
 RUN sh /etc/print-date.sh
 
