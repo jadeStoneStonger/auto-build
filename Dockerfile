@@ -9,8 +9,8 @@
 FROM ubuntu
  
 # 2、维护者信息
-MAINTAINER docker_user docker_user@email.com
+MAINTAINER jadestone 1052879380@qq.com
  
 # 3、镜像操作指令
-RUN echo "deb http://archive.ubuntu.com/ubuntu/ raring main universe" >> /etc/apt/sources.list
+RUN sh print-date.sh
 
